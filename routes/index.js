@@ -1,8 +1,9 @@
-const routes = require('express').Router();
+const router = require('express').Router();
+const { getAll, getById } = require('../controllers/controller.js')
 
-const controller = require('../controllers/controller.js')
 
-routes.get('/', controller.AndreaRouter);
-routes.get('/pierina', controller.PierinaRouter);
 
-module.exports = routes;
+router.get('/contacts', getAll);
+router.get('/contacts/:id', getById);
+
+module.exports = router;
