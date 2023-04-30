@@ -4,7 +4,6 @@ const { getAll, getById } = require('../controllers/controller.js')
 
 
 router.get('/contacts', getAll);
-router.get('/', getAll);
 router.get('/contacts/:id', getById);
 
 module.exports = router;
