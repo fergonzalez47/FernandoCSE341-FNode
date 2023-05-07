@@ -13,8 +13,24 @@ GET http://localhost:8080/contacts/644d97e1e40380453bde5684
 # Post a new contact
 POST http://localhost:8080/contacts/add
 
+{
+        "firstName": "Sebastian Manuel",
+        "lastName": "Gonzalez",
+        "email": "aries33333@gmail.com",
+        "favoriteColor": "verde",
+        "birthday": "2000-04-25"
+    }
+
 # update a contact
 PUT http://localhost:8080/contacts/update/:id
+
+{
+    "firstName":"Pierina",
+    "lastName":"Valdez",
+    "email":"kamarita@hotmail.com",
+    "favoriteColor":"yellow",
+    "birthday":"1964-07-20,
+}
 
 # Delete a contact
 DELETE http://localhost:8080/contacts/delete/:id
