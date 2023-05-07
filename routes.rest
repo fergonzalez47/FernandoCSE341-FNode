@@ -1,9 +1,22 @@
-http://localhost:8080/contacts
+# get all contacts
+GET http://localhost:8080/contacts
 
-http://localhost:8080/contacts/644d972be40380453bde5680
+# get a contact by id
+GET http://localhost:8080/contacts/644d972be40380453bde5680
 
-http://localhost:8080/contacts/644d97ade40380453bde5682
+# get a contact by id
+GET http://localhost:8080/contacts/644d97ade40380453bde5682
 
-http://localhost:8080/contacts/644d97e1e40380453bde5684
+# get a contact by id
+GET http://localhost:8080/contacts/644d97e1e40380453bde5684
+
+# Post a new contact
+POST http://localhost:8080/contacts/add
+
+# update a contact
+PUT http://localhost:8080/contacts/update/:id
+
+# Delete a contact
+DELETE http://localhost:8080/contacts/delete/:id
 
 

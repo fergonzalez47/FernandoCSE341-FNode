@@ -11,7 +11,8 @@ const connectDB = require('./db/connection.js');
 connectDB();
 
 
-app.use('/api/contact', require('./API/api.js'));
+
+// app.use('/api/contact', require('./API/api.js'));
 const port = process.env.port || 8080;
 
 app.use('/', require('./routes'));
