@@ -2,6 +2,9 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 
+// swaggerAutogen
+const swaggerAutogen = require('swagger-autogen')();
+
 // Configuración de body-parser
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
