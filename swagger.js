@@ -5,7 +5,7 @@ const doc = {
         title: 'My Contacts API',
         description: 'API for getting, posting, updating and deleting contacts',
     },
-    host: 'localhost:8080',
+    host: 'cse341-node-8fog.onrender.com/contacts',
     schemes: ['https'],
 };
 
