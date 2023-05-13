@@ -5,7 +5,7 @@
     "description": "API for getting, posting, updating and deleting contacts",
     "version": "1.0.0"
   },
-  "host": "cse341-node-8fog.onrender.com/contacts",
+  "host": "cse341-node-8fog.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
